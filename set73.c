@@ -1,4 +1,6 @@
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
     int a[10],i,min;
     for(i=0;i<10;i++)
@@ -15,5 +17,5 @@ int main()
     }
     printf("%d",min);
 
-return 0;
+getch();
 }

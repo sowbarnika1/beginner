@@ -1,4 +1,6 @@
-int main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
     int n,k,s;
     scanf("%d %d",&n,&k);
@@ -11,6 +13,5 @@ int main()
     {
         printf("odd");
     }
-
-return 0;
+getch();
 }
